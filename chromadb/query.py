@@ -5,7 +5,7 @@ client = chromadb.Client()  # type: ignore
 collection = client.create_collection(name = "Vehicles")
 print("collection Created:-",collection.name)
 
-#Add the data to the collection
+#Add the data to the collection (adding the documents)
 collection.add(
     #Documents == Your data 
     documents = [
