@@ -1,5 +1,5 @@
-import chromadb 
 
+import chromadb 
 client = chromadb.Client()  # type: ignore
 
 collection = client.create_collection(name = "Vehicles")
