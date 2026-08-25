@@ -9,8 +9,6 @@ collection = client.get_collection("Vehicle")
 
 data = collection.get()
 
-print("All tdocuments inside the 'Vehicles' are:")
-
 #To display the data in the proper formate
 for i,doc in zip(data["ids"],data["documents"]):
     print(f"{i} -> {doc}")
