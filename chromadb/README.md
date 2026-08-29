@@ -55,5 +55,5 @@ pip install chromadb
 # Verify installation
 pip show chromadb
 ```
-### Step 4: File Execution
+### Step 4: Basic File Execution 
 >> python query.py
