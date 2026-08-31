@@ -10,5 +10,5 @@ collection = client.get_collection("Vehicle")
 data = collection.get()
 
 #To display the data in the proper formate
-for i,doc in zip(data["ids"],data["documents"]):
+for i,doc in zip(data["ids"],data["documents"]): #type: ignore
     print(f"{i} -> {doc}")

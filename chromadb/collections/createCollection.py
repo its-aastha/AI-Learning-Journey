@@ -19,5 +19,5 @@ print("Added the Successfully !")
 data = collection.get() 
 
 #This is the code that is used to display the data 
-for i, doc in zip(data["ids"], data["documents"]):
+for i, doc in zip(data["ids"], data["documents"]): #type: ignore
     print(f"{i} -> {doc}")

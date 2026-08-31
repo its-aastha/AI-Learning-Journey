@@ -10,5 +10,5 @@ print("Data deleted successfully!")
 data = collection.get()
 
 print("\n Remaning data indide the 'vehicles'")
-for i, doc in zip(data["ids"], data["documents"]):
+for i, doc in zip(data["ids"], data["documents"]): #type: ignore
     print(f"{i} -> {doc}")
