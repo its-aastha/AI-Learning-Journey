@@ -13,3 +13,8 @@ print(" ")
 diesel = collection.get(where = {"fuel": "diesel"})
 print("diesel vehicles:")
 print(diesel)
+
+print("")
+personal_transport = collection.get(where = {"type":"personal_transport"})
+print("Personal Vehicles:")
+print(personal_transport)
