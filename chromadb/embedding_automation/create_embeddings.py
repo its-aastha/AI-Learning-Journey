@@ -9,12 +9,13 @@ print("collection is ready", collection.name)
 # Add some text documents
 collection.add (
     documents = [
-        "Car runs on road",
-        "Plane flies in the sky",
-        "boat travels on water",
-        "bus is public transport on road"],
+        "Car runs on petrol",
+        "Bus carries Passengers",
+        "Bicycle runs without fuel",
+        "Boat travels on water",
+        "Plane flies in the sky"],
     ids = [
-        "cars1","plane1","boat1","bus1"
+        "cars1","bus1","bike1","boat1","plane1"
     ]
 )
 print("Documents added with embedding automatically generated !")
