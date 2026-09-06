@@ -9,14 +9,13 @@ print("collection Created:-",collection.name)
 collection.add(
     #Documents == Your data 
     documents = [
-        "cars runs on the land",
-        "Plane flies in the sky",
-        "boat travels on the water",
-        "bus is public transport on the road"
-    ],
-    ids = [
-        "car1","plane1","boat1","bus1"
-    ]
+           "Cars runs on petrol",
+           "Bus carries passangers on road",
+           "Bicycle runs without flue",
+           "boat travels on water",
+           "Plane flies in the sky"],
+   
+       ids = ["cars1","bus1","bike1","boat1","plane1"]
 )
 
 #Query the collection 
