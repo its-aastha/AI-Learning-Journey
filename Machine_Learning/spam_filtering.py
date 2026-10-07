@@ -11,8 +11,7 @@ from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
 # Looks for messages.csv in the same folder as this Python file.
-DATA_FILE = Path("C:\\AI\\AI-Learning-Journey\\Machine_Learning\\messages.csv").with_name("messages.csv")
-
+DATA_FILE = Path(__file__).with_name("messages.csv")
 
 def main():
     data = pd.read_csv(DATA_FILE)
@@ -78,7 +77,6 @@ def main():
     while True:
         message = input("Message: ")
         print("Prediction:", final_model.predict([message])[0])
-
 
 if __name__ == "__main__":
     main()
