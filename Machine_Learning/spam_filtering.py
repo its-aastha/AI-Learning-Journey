@@ -10,7 +10,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
-# Looks for messages.csv in the same folder as this Python file.
+
 DATA_FILE = Path(__file__).with_name("messages.csv")
 
 def main():
