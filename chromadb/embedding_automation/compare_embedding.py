@@ -9,7 +9,7 @@ def cosine_similarity(vec1, vec2):
     )
 
 # Connect to ChromaDB
-client = chromadb.PersistentClient(path="./chromadb")
+client = chromadb.PersistentClient(path="./chromadb")  # type: ignore
 
 # Get the existing collection
 collection = client.get_collection("vehicles_embeddings")
